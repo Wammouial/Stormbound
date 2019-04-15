@@ -1,0 +1,20 @@
+cardsMap.put("Broken Truce", new Spell("Broken Truce", 4, player, "", EffectDescription.None, "Swarm of the East")); //Destroy a target unit or structure. Deal 5 damage to your base.
+cardsMap.put("Counselor Ahmi", new Unit("Counselor Ahmi", 3, 1, player, 3, "Legendary", EffectDescription.None, "Satyr", "Swarm of the East")); //If played with no bordering units, return its card back to your hand.
+cardsMap.put("Dark Harvest", new Spell("Dark Harvest", 5, player, "", EffectDescription.None, "Swarm of the East")); //Deal 2 damage to each enemy bordering a friendly unit.
+cardsMap.put("Devastators", new Unit("Devastators", 4, 1, player, 3, "Epic", EffectDescription.None, "Undead", "Swarm of the East")); //When attacking the enemy base, deal 2 additional damage to it.
+cardsMap.put("Doppelbocks", new Unit("Doppelbocks", 3, 0, player, 2, "Common", EffectDescription.None, "Satyr", "Swarm of the East")); //On play, spawn a 1 strength Satyr on the tile in front.
+cardsMap.put("Draconic Roamers", new Unit("Draconic Roamers", 4, 2, player, 2, "Rare", EffectDescription.None, "Dragon", "Swarm of the East")); //When attacking a unit, spawn a 2 strength Dragon on a random tile bordering it.
+cardsMap.put("Dreadfauns", new Unit("Dreadfauns", 5, 0, player, 2, "Common", EffectDescription.None, "Satyr", "Swarm of the East")); //On play, spawn 2 Satyrs with 2 strength on random bordering tiles.
+cardsMap.put("Forgotten Souls", new Unit("Forgotten Souls", 3, 1, player, 1, "Rare", EffectDescription.None, "Undead", "Swarm of the East")); //On play, command a random bordering friendly unit forward.
+cardsMap.put("Grim Couriers", new Unit("Grim Couriers", 5, 3, player, 2, "Common", EffectDescription.None, "Undead", "Swarm of the East"));
+cardsMap.put("Herald's Hymn", new Spell("Herald's Hymn", 6, player, "", EffectDescription.None, "Swarm of the East")); //Give 1 strength to a friendly target and command all friendly units in its row forward.
+cardsMap.put("Mischiefs", new Unit("Mischiefs", 4, 1, player, 3, "Common", EffectDescription.None, "Undead", "Swarm of the East")); //On play, deal 1 damage to the enemy base.
+cardsMap.put("Moonlit Aerie", new Structure("Moonlit Aerie", 3, player, 3, EffectDescription.None, "", "Swarm of the East")); //At the start of your turn, give 1 strength to all friendly Satyrs.
+cardsMap.put("Pan Heralds", new Unit("Pan Heralds", 4, 0, player, 1, "Common", EffectDescription.None, "Satyr", "Swarm of the East")); //On play, give 1 strength to all surrounding friendly units.
+cardsMap.put("Pillars of Doom", new Structure("Pillars of Doom", 5, player, 4, EffectDescription.None, "", "Swarm of the East")); //At the start of your turn, deal 2 damage to the enemy base.
+cardsMap.put("Queen of Herds", new Unit("Queen of Herds", 6, 0, player, 5, "Legendary", EffectDescription.None, "Undead", "Swarm of the East")); //On play, randomly plays 1 Satyr from your deck to the board.
+cardsMap.put("Restless Goats", new Unit("Restless Goats", 1, 2, player, 1, "Epic", EffectDescription.None, "Satyr", "Swarm of the East")); //On death, deal 1 damage to your base.
+cardsMap.put("Shady Ghoul", new Unit("Shady Ghoul", 2, 2, player, 1, "Rare", EffectDescription.None, "Undead", "Swarm of the East")); //On death, spawn a 1 strength Satyr on a random bordering tile.
+cardsMap.put("Swarmcallers", new Unit("Swarmcallers", 3, 1, player, 1, "Rare", EffectDescription.None, "Satyr", "Swarm of the East")); //On play, gain 2 strength for each bordering friendly Satyr.
+cardsMap.put("Vindicators", new Unit("Vindicators", 6, 3, player, 3, "Epic", EffectDescription.None, "Undead", "Swarm of the East")); //Before attacking, deal 1 damage to the enemy base.
+cardsMap.put("Xuri, Lord of Life", new Unit("Xuri, Lord of Life", 5, 0, player, 5, "Legendary", EffectDescription.None, "Dragon", "Swarm of the East")); //On play, fly to the first empty tile in front. Give 2 strength to all friendly units passed.

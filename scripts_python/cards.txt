@@ -1,0 +1,41 @@
+cardsMap.put("Archdruid Earyn", new Unit("Archdruid Earyn", 7, 0, player, 7, "Legendary", EffectDescription.None, "")); //On play, randomly play up to 1 spell card from your hand.
+cardsMap.put("Avian Stalkers", new Unit("Avian Stalkers", 7, 0, player, 6, "Epic", EffectDescription.None, "Raven")); //On death, spawn 3 strength Ravens on all tiles behind.
+cardsMap.put("Beasts of Terror", new Unit("Beasts of Terror", 4, 1, player, 3, "Epic", EffectDescription.None, "Dragon")); //When attacking a non-Dragon unit, deal 2 damage to all other enemies with the same unit type.
+cardsMap.put("Bluesail Raiders", new Unit("Bluesail Raiders", 5, 2, player, 3, "Common", EffectDescription.None, "Pirate"));
+cardsMap.put("Boomstick Officers", new Unit("Boomstick Officers", 6, 0, player, 6, "Rare", EffectDescription.None, "Rodent")); //On play, deal 3 damage to a random enemy unit behind.
+cardsMap.put("Brothers in Arms", new Unit("Brothers in Arms", 3, 0, player, 3, "Common", EffectDescription.None, "Knight")); //On play, spawn a 1 strength Knight on the tile behind.
+cardsMap.put("Cabin Girls", new Unit("Cabin Girls", 4, 0, player, 5, "Common", EffectDescription.None, "Pirate"));
+cardsMap.put("Call for Aid", new Spell("Call for Aid", 7, player, "", EffectDescription.None)); //Spawn 3 strength units on all tiles bordering a target friendly unit.
+cardsMap.put("Collector Mirz", new Unit("Collector Mirz", 3, 1, player, 2, "Legendary", EffectDescription.None, "")); //On play, create a 0 cost unit with 5 strength and add it to your deck.
+cardsMap.put("Confinement", new Spell("Confinement", 4, player, "", EffectDescription.None)); //Reduce the strength of a target enemy unit to 5.
+cardsMap.put("Conflicted Drakes", new Unit("Conflicted Drakes", 3, 0, player, 3, "Rare", EffectDescription.None, "Dragon")); //On play, deal 1 damage to all non-Dragon units in front.
+cardsMap.put("Crazy Bombers", new Unit("Crazy Bombers", 9, 1, player, 7, "Epic", EffectDescription.None, "Rodent")); //On play, deal 7 damage spread randomly among all bordering enemies.
+cardsMap.put("Dangerous Suitors", new Unit("Dangerous Suitors", 5, 1, player, 3, "Rare", EffectDescription.None, "Dragon")); //On play, gain 2 strength for every other Dragon on the board.
+cardsMap.put("First Mutineer", new Unit("First Mutineer", 2, 2, player, 1, "Common", EffectDescription.None, "Pirate")); //On play, discard 1 random card from your hand.
+cardsMap.put("Flooding the Gates", new Spell("Flooding the Gates", 6, player, "", EffectDescription.None)); //Deal 3 damage to all units bordering your base.
+cardsMap.put("Freebooters", new Unit("Freebooters", 3, 0, player, 2, "Common", EffectDescription.None, "Pirate")); //On play, draw 1 card.
+cardsMap.put("Goldgrubbers", new Unit("Goldgrubbers", 4, 1, player, 4, "Epic", EffectDescription.None, "Pirate")); //On play, replace 1 random non-Pirate card from your hand.
+cardsMap.put("Green Prototypes", new Unit("Green Prototypes", 1, 1, player, 1, "Rare", EffectDescription.None, "Construct")); //On death, give 1 strength to a random bordering enemy unit.
+cardsMap.put("Hearthguards", new Unit("Hearthguards", 6, 2, player, 3, "Epic", EffectDescription.None, "Dwarf")); //If played bordering a friendly structure or base, gain 3 strength.
+cardsMap.put("Kindred's Grace", new Spell("Kindred's Grace", 6, player, "", EffectDescription.None)); //Give 5 strength to a target friendly unit and 2 strength to all others with the same unit type.
+cardsMap.put("Lawless Herd", new Unit("Lawless Herd", 1, 0, player, 1, "Common", EffectDescription.None, "Satyr"));
+cardsMap.put("Lich Summoners", new Unit("Lich Summoners", 6, 1, player, 6, "Epic", EffectDescription.None, "Undead")); //After attacking, spawn a 3 strength Undead on the tile behind.
+cardsMap.put("Lucky Charmers", new Unit("Lucky Charmers", 6, 1, player, 4, "Rare", EffectDescription.None, "Pirate")); //On play, gain 2 strength for each Pirate in your hand.
+cardsMap.put("Ludic Matriarchs", new Unit("Ludic Matriarchs", 6, 0, player, 5, "Epic", EffectDescription.None, "Dragon")); //If played bordering exactly 1 friendly Dragon, spawn 1 strength Dragons on all tiles bordering either.
+cardsMap.put("Needle Blast", new Spell("Needle Blast", 5, player, "", EffectDescription.None)); //Deal 2 damage to 2 random enemies.
+cardsMap.put("Northsea Dog", new Unit("Northsea Dog", 1, 0, player, 1, "Rare", EffectDescription.None, "Pirate")); //If played as the last card in your hand, gain 4 strength.
+cardsMap.put("Potion of Growth", new Spell("Potion of Growth", 3, player, "", EffectDescription.None)); //Give a target friendly unit 3 strength.
+cardsMap.put("Salty Outcasts", new Unit("Salty Outcasts", 7, 2, player, 5, "Common", EffectDescription.None, "Toad"));
+cardsMap.put("Sharpfist Exiles", new Unit("Sharpfist Exiles", 7, 1, player, 1, "Rare", EffectDescription.None, "Toad")); //On play, gain 2 strength for every enemy unit.
+cardsMap.put("Siren of the Seas", new Unit("Siren of the Seas", 10, 3, player, 6, "Legendary", EffectDescription.None, "")); //Before attacking a unit, reduce its strength to 3.
+cardsMap.put("Snowmasons", new Unit("Snowmasons", 4, 1, player, 2, "Rare", EffectDescription.None, "Dwarf")); //On death, give 4 strength spread randomly among all surrounding friendly units.
+cardsMap.put("Spare Dragonlings", new Unit("Spare Dragonlings", 2, 1, player, 1, "Rare", EffectDescription.None, "Dragon")); //On death, give a random friendly Dragon 4 strength.
+cardsMap.put("Summon Militia", new Spell("Summon Militia", 2, player, "", EffectDescription.None)); //Randomly spawn a Knight with 4 strength.
+cardsMap.put("Tegor the Vengeful", new Unit("Tegor the Vengeful", 6, 2, player, 4, "Legendary", EffectDescription.None, "Dragon")); //On death, do a random effect: give 6 strength, deal 5 damage or spawn a 4 strength unit.
+cardsMap.put("Temple Guardians", new Unit("Temple Guardians", 8, 0, player, 6, "Epic", EffectDescription.None, "Knight")); //If played bordering your base, spawn 4 strength Knights on all tiles in the same row.
+cardsMap.put("Terrific Slayers", new Unit("Terrific Slayers", 5, 1, player, 4, "Rare", EffectDescription.None, "Knight")); //Before attacking a Dragon, deal 4 additional damage.
+cardsMap.put("Trueshot Post", new Structure("Trueshot Post", 5, player, 4, EffectDescription.None, "")); //At the start of your turn, deal 3 damage to a random enemy unit.
+cardsMap.put("Ubass the Hunter", new Unit("Ubass the Hunter", 5, 1, player, 5, "Legendary", EffectDescription.None, "")); //On play, for each unit type on the board, deal 1 damage to a random enemy.
+cardsMap.put("Victors of the Melee", new Unit("Victors of the Melee", 6, 1, player, 4, "Rare", EffectDescription.None, "Knight")); //When attacking, deal 2 damage to all surrounding enemy units and structures.
+cardsMap.put("Voidsurgers", new Unit("Voidsurgers", 5, 0, player, 4, "Rare", EffectDescription.None, "Frostling")); //If played bordering at least 2 enemies, deal 2 damage to each.
+cardsMap.put("Westwind Sailors", new Unit("Westwind Sailors", 3, 1, player, 3, "Common", EffectDescription.None, "Pirate"));

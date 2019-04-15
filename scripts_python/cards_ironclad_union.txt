@@ -1,0 +1,20 @@
+cardsMap.put("Armed Schemers", new Unit("Armed Schemers", 7, 0, player, 7, "Epic", EffectDescription.None, "Rodent", "Ironclad Union")); //On play, pull enemy units to you, then deal 3 damage to all bordering enemy units.
+cardsMap.put("Boosting Elixir", new Spell("Boosting Elixir", 4, player, "", EffectDescription.None, "Ironclad Union")); //Give 3 strength to a target friendly unit and a random friendly unit bordering it.
+cardsMap.put("Chaotic Pupil", new Unit("Chaotic Pupil", 4, 2, player, 1, "Common", EffectDescription.None, "Rodent", "Ironclad Union")); //On death, deal 2 damage spread randomly among all surrounding enemies.
+cardsMap.put("Debug Loggers", new Unit("Debug Loggers", 5, 1, player, 5, "Epic", EffectDescription.None, "Construct", "Ironclad Union")); //After attacking, gain 2 strength.
+cardsMap.put("Delegators", new Unit("Delegators", 6, 1, player, 7, "Common", EffectDescription.None, "Construct", "Ironclad Union"));
+cardsMap.put("Destructobots", new Unit("Destructobots", 2, 1, player, 3, "Rare", EffectDescription.None, "Construct", "Ironclad Union")); //On play, deal 1 damage to another friendly unit or structure.
+cardsMap.put("Doctor Mia", new Unit("Doctor Mia", 2, 0, player, 2, "Legendary", EffectDescription.None, "Rodent", "Ironclad Union")); //On play, trigger the ability of all bordering friendly structures.
+cardsMap.put("Eloth the Ignited", new Unit("Eloth the Ignited", 5, 0, player, 5, "Legendary", EffectDescription.None, "Dragon", "Ironclad Union")); //On play, fly to the first enemy unit in front. Deal 3 damage to this enemy and push it away.
+cardsMap.put("Finite Loopers", new Unit("Finite Loopers", 3, 1, player, 2, "Common", EffectDescription.None, "Construct", "Ironclad Union")); //On death, spawn a 2 strength Construct on a random bordering tile.
+cardsMap.put("Flaming Stream", new Spell("Flaming Stream", 5, player, "", EffectDescription.None, "Ironclad Union")); //Deal 1-3 damage to all enemy units in a target unit's column and push them back.
+cardsMap.put("Fortification Tonic", new Spell("Fortification Tonic", 3, player, "", EffectDescription.None, "Ironclad Union")); //Give 2 strength to each friendly unit bordering a friendly structure.
+cardsMap.put("Greengale Serpents", new Unit("Greengale Serpents", 3, 2, player, 1, "Rare", EffectDescription.None, "Dragon", "Ironclad Union")); //Before attacking a unit, gives itself and a random friendly Dragon 1 strength.
+cardsMap.put("Linked Golems", new Unit("Linked Golems", 4, 1, player, 2, "Epic", EffectDescription.None, "Construct", "Ironclad Union")); //If played bordering a friendly Construct, both gain 2 strength.
+cardsMap.put("Mech Workshop", new Structure("Mech Workshop", 4, player, 3, EffectDescription.None, "", "Ironclad Union")); //At the start of your turn, spawn a 2 strength Construct on the tile in front.
+cardsMap.put("Overchargers", new Unit("Overchargers", 4, 1, player, 3, "Common", EffectDescription.None, "Rodent", "Ironclad Union")); //On play, deal 1 damage to the first enemy in front.
+cardsMap.put("Ozone Purifiers", new Unit("Ozone Purifiers", 2, 0, player, 1, "Common", EffectDescription.None, "Rodent", "Ironclad Union")); //On play, push a random bordering enemy unit away.
+cardsMap.put("Project PH03-NIX", new Unit("Project PH03-NIX", 6, 1, player, 4, "Legendary", EffectDescription.None, "Construct", "Ironclad Union")); //If not bordering any base when it dies, randomly respawn at your base with 4 strength.
+cardsMap.put("Siege Assembly", new Structure("Siege Assembly", 5, player, 3, EffectDescription.None, "", "Ironclad Union")); //At the start of your turn, deal 3 damage to the first enemy in front.
+cardsMap.put("Upgrade Point", new Structure("Upgrade Point", 3, player, 3, EffectDescription.None, "", "Ironclad Union")); //At the start of your turn, give 2 strength to all surrounding friendly Constructs.
+cardsMap.put("Windmakers", new Unit("Windmakers", 6, 2, player, 3, "Rare", EffectDescription.None, "Rodent", "Ironclad Union")); //Before attacking a stronger unit, deal 3 damage to it and push it away.

@@ -1,0 +1,20 @@
+cardsMap.put("Broken Earth Drakes", new Unit("Broken Earth Drakes", 6, 1, player, 3, "Rare", EffectDescription.None, "Dragon", "Winter Pact")); //If not bordering any base when it dies, deal 3 damage to all non-Dragon units.
+cardsMap.put("Calming Spirits", new Unit("Calming Spirits", 8, 0, player, 10, "Common", EffectDescription.None, "Frostling", "Winter Pact"));
+cardsMap.put("Chillbeards", new Unit("Chillbeards", 10, 2, player, 3, "Common", EffectDescription.None, "Dwarf", "Winter Pact")); //If played with an enemy on the tile in front, gain 6 strength.
+cardsMap.put("Dawnsparks", new Unit("Dawnsparks", 6, 0, player, 7, "Epic", EffectDescription.None, "Frostling", "Winter Pact")); //When this unit attacks, gain 3 mana.
+cardsMap.put("Fleshmenders", new Unit("Fleshmenders", 8, 2, player, 4, "Epic", EffectDescription.None, "Dwarf", "Winter Pact")); //On play, give 6 strength to a random bordering friendly unit or structure.
+cardsMap.put("Frosthexers", new Unit("Frosthexers", 2, 0, player, 1, "Common", EffectDescription.None, "Frostling", "Winter Pact")); //On play, freeze a random bordering enemy unit.
+cardsMap.put("Frozen Core", new Structure("Frozen Core", 5, player, 4, EffectDescription.None, "", "Winter Pact")); //At the start of your turn, gain 2 mana.
+cardsMap.put("Gift of the Wise", new Spell("Gift of the Wise", 7, player, "", EffectDescription.None, "Winter Pact")); //Gain 9 mana.
+cardsMap.put("Icicle Burst", new Spell("Icicle Burst", 1, player, "", EffectDescription.None, "Winter Pact")); //Destroy a target frozen enemy with 7 or less strength.
+cardsMap.put("Lady Rime", new Unit("Lady Rime", 5, 0, player, 5, "Legendary", EffectDescription.None, "Frostling", "Winter Pact")); //On play, spend your remaining mana and gain 2 strength for each.
+cardsMap.put("Midwinter Chaos", new Spell("Midwinter Chaos", 3, player, "", EffectDescription.None, "Winter Pact")); //Deal 4 damage to all frozen enemies, freeze the others.
+cardsMap.put("Moment's Peace", new Spell("Moment's Peace", 6, player, "", EffectDescription.None, "Winter Pact")); //Give 6 strength to a target friendly unit or structure and freeze all surrounding enemies.
+cardsMap.put("Mystwives", new Unit("Mystwives", 4, 1, player, 3, "Epic", EffectDescription.None, "Dwarf", "Winter Pact")); //If played bordering a stronger friendly unit, gain 3 strength.
+cardsMap.put("Olf the Hammer", new Unit("Olf the Hammer", 9, 2, player, 6, "Legendary", EffectDescription.None, "Dwarf", "Winter Pact")); //If played bordering your base, give the base 3 strength.
+cardsMap.put("Rimelings", new Unit("Rimelings", 5, 1, player, 3, "Common", EffectDescription.None, "Frostling", "Winter Pact")); //On play, gain 3 mana.
+cardsMap.put("Rockworkers", new Unit("Rockworkers", 5, 1, player, 4, "Common", EffectDescription.None, "Dwarf", "Winter Pact")); //On play, spawn a 4 strength Fort on a random bordering tile.
+cardsMap.put("Spellbinder Zhevana", new Unit("Spellbinder Zhevana", 4, 0, player, 4, "Legendary", EffectDescription.None, "Dragon", "Winter Pact")); //On play, destroy all frozen enemies in front with 4 or less strength. Gain 4 mana for each unit destroyed.
+cardsMap.put("The Hearth", new Structure("The Hearth", 4, player, 3, EffectDescription.None, "", "Winter Pact")); //At the start of your turn, give 2 strength to another friendly unit or structure.
+cardsMap.put("Wisp Cloud", new Unit("Wisp Cloud", 4, 1, player, 3, "Rare", EffectDescription.None, "Frostling", "Winter Pact")); //On play, deal 4 damage to all surrounding frozen enemy units.
+cardsMap.put("Wolfcloaks", new Unit("Wolfcloaks", 7, 1, player, 10, "Rare", EffectDescription.None, "Dwarf", "Winter Pact")); //On play, lose 1 strength for every other friendly unit on the board.
